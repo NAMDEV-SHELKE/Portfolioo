@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="adjust">
+            <img src="PC.jpg" alt="profile" class="profilepic">
+        </div>
+        <h2>Namdev      Shelke</h2>
+        <p><b>👋 Hi, I’m Namdev Shelke, a passionate BSc Computer Science student with a strong interest in web
+            development, programming, and problem-solving.
+            I enjoy building creative and functional projects—from responsive websites to coding solutions in C, C++,
+            Java, and Python..
+            💼 My goal is to grow as a developer, contribute to impactful projects, and continuously learn in this
+            ever-evolving tech world.</b></p>
+        <a href="C:\xampp\htdocs\fieldproject\fieldproject\portfolio\Resume.docx" download class="resume-btn">Download Resume</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3 class="textcolor">Travel Website</h3>
+                <p>Designed and developed a responsive travel website using HTML, CSS, and JavaScript to showcase tours
+                    and travel packages.</p>
+                <ul>
+                    <li>🏝 Attractive Homepage with background images of travel destinations.</li>
+                    <li>🧭 Navigation Bar for quick access to About, Packages, Services, and Contact.</li>
+                    <li>📦 Tour Packages Section highlighting popular destinations with pricing.</li>
+                    <li>📱 Fully Responsive Design (works on desktop, tablet, and mobile).</li>
+                    <li>📩 Contact Form for travel inquiries.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h2 class="textcolor">Frontend</h2>
+                <h3>HTML</h3>
+                <h3>CSS</h3>
+                <h3>PHP</h3>
+            </div>
+
+            <div class="skill">
+                <h2 class="textcolor">Backend</h2>
+                <h3>C Programming</h3>
+                <h3>C++</h3>
+                <h3>Java(Beginner)</h3>
+                <h3>Python(Beginner)</h3>
+                <h3>MySQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <h3>Get in Touch</h3>
+            <p><i class="fa-solid fa-envelope"></i>
+                <a href="mailto:shelkenamdev1752@gmail.com">shelkenamdev1752@gmail.com</a>
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +91 9284869992</p>
+            <p>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="http://linkedin.com/in/namdev-shelke-3bb69a333" target="_blank">LinkedIn</a>
+            </p>
+            <p>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/NAMDEV-SHELKE" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Namdev Shelke |
+            <a href="http://linkedin.com/in/namdev-shelke-3bb69a333" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/NAMDEV-SHELKE" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
